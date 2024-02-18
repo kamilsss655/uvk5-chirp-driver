@@ -445,10 +445,10 @@ def list_def(value, lst, default):
 @directory.register
 @directory.detected_by(uvk5.UVK5Radio)
 class UVK5RadioEgzumer(uvk5.UVK5RadioBase):
-    """Quansheng UV-K5 (egzumer)"""
+    """Quansheng UV-K5 (egzumer - Nunu)"""
     VENDOR = "Quansheng"
     MODEL = "UV-K5"
-    VARIANT = "egzumer"
+    VARIANT = "kamilsss655 - Nunu"
     BAUD_RATE = 38400
     NEEDS_COMPAT_SERIAL = False
     FIRMWARE_VERSION = ""
@@ -460,7 +460,7 @@ class UVK5RadioEgzumer(uvk5.UVK5RadioBase):
 
     @classmethod
     def k5_approve_firmware(cls, firmware):
-        return firmware.startswith('EGZUMER ')
+        return firmware.startswith('NUNU ')
 
     def _get_bands(self):
         is_wide = self._memobj.BUILD_OPTIONS.ENABLE_WIDE_RX \
