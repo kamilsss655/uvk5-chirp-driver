@@ -9,10 +9,7 @@ Licensed cc-by-sa-4.0
 
 # How to use
 
-> [!IMPORTANT]
-> This driver is added to official [CHIRP release](https://chirp.danplanet.com/projects/chirp/wiki/Download).<br><br>
-Choose `UV-K5` radio model in the CHIRP download window. It will automatically recognize egzumer firmware if it is on your radio, and all extra options will be available. You should see radio model changed to `UV-K5 egzumer` in the "Upload to radio..." function window.<br><br>
-> If you find some issues that are clearly related to this driver report them here and not to the CHIRP team.<br><br>
+## For the NUNU version of this firmware 
 
 You can also use development version of the driver [uvk5_EGZUMER.py](uvk5_egzumer.py?raw=1) (right click, "Save link as...") and load it to CHIRP manually.
 > [!IMPORTANT]
