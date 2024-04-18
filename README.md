@@ -9,14 +9,11 @@ Licensed cc-by-sa-4.0
 
 # How to use
 
-At some point the driver will hopefully be added to official release of CHIRP.
+## For the NUNU version of this firmware 
 
-Currently you can use modified version of CHIRP from [releases](https://github.com/egzumer/uvk5-chirp-driver/releases). The modified CHIRP is built from [source code](https://github.com/egzumer/chirp/tree/egzumer) and contains the driver. It is packed using pyinstaller into one file for convinience, however some antiviruses don't like that and [report it as a threat](https://stackoverflow.com/questions/43777106/program-made-with-pyinstaller-now-seen-as-a-trojan-horse-by-avg). If you don't trust this file, then use the other method.
-
-You can also use development version of driver [uvk5_EGZUMER.py](uvk5_egzumer.py?raw=1) (right click, "Save link as...") and load it to CHIRP manually.
-
-> [!WARNING]
-> Set the `UV-K5 (egzumer)` radio model in the CHIRP before you upload/download a configuration.
+You can also use development version of the driver [uvk5_EGZUMER.py](uvk5_egzumer.py?raw=1) (right click, "Save link as...") and load it to CHIRP manually.
+> [!IMPORTANT]
+This driver is an extension of the UV-K5 driver that was modified to accept driver extensions. You have to use CHIRP version that was released after 01.02.2024 that contains the correct base driver. 
 
 ## Loading with menu
 1. go to menu `Help` and turn on `Developer mode`
