@@ -493,7 +493,9 @@ KEYACTIONS_LIST = ["NONE",
                    "LOCK KEYPAD",
                    "Switch main VFO (SWITCH VFO)",
                    "Switch frequency/memory mode (VFO/MR)",
-                   "Switch demodulation (SWITCH DEMODUL)"
+                   "Switch demodulation (SWITCH DEMODUL)",
+                   "Switch banwidth (SWITCH BANDWID)",
+                   "Spectrum analyzer (SPECTRUM)"
                    ]
 
 MIC_GAIN_LIST = ["+1.1dB","+4.0dB","+8.0dB","+12.0dB","+15.1dB"]
