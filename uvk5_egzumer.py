@@ -424,6 +424,7 @@ FLOCK_LIST = ["DEFAULT+ (137-174, 400-470 + Tx200, Tx350, Tx500)",
               "GB HAM (144-148, 430-440)", 
               "137-174, 400-430", 
               "137-174, 400-438", 
+              "PMR446",
               "Disable All",
               "Unlock All"]
 
@@ -2038,7 +2039,7 @@ class UVK5Radio(chirp_common.CloneModeRadio):
         # F-LOCK
         def validate_int_flock( value):
             mem_val = self._memobj.int_flock
-            if mem_val!=7 and value==FLOCK_LIST[7]:
+            if mem_val!=7 and value==FLOCK_LIST[8]:
                 msg = "\"" + value + "\" can only be enabled from radio menu"
                 raise InvalidValueError(msg)
             return value
